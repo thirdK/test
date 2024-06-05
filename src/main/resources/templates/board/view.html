@@ -10,7 +10,7 @@
     <script defer type="module" th:src="@{/js/board/view.js}"></script>
 </head>
 <body>
-<header class="header" th:replace="~{/fragment/header :: header}"></header>
+<header class="header" th:replace="~{fragment/header :: header}"></header>
 <input type="hidden" id="boardId" th:value="${board.boardId}">
 <div class="container">
     <h1 class="title">자유 게시판</h1>
