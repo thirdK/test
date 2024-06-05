@@ -37,7 +37,7 @@ public class FileSchedule {
     0 0 12 * * ? : 매일 낮 12시 마다
      */
 
-    @Scheduled(cron = "0/10 * * * * ?")
+    @Scheduled(cron = "0 0 3 * * ?")
     public void checkFiles() {
         log.info("File Check!!!");
         log.info("------------------------------");
